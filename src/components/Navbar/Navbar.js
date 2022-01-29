@@ -39,7 +39,7 @@ function Navbar(){
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link smooth to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link smooth to="#" className="navbar-logo" onClick={closeMobileMenu}>
                         <img src="https://www.nogozo.com/static/mainapp/img/logo.png" width="100"/>
                     </Link>
                     
