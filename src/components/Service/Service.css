@@ -97,7 +97,7 @@ h1{
     .cards{
 
         padding:8rem;
-        background: rgb(185,183,213)
+        background-image: url('https://cdn.dribbble.com/users/707385/screenshots/4954372/12_4_6___.gif');
     }
 	 .wrapper {
 		 grid-template-columns: repeat(auto-fit, minmax(18rem, 25rem));
@@ -129,8 +129,8 @@ h1{
             border-radius: 0.2rem;
            
             display: flex;
-            background:white;
-       }
+            background-image:url('https://i.pinimg.com/564x/f7/5f/13/f75f13f1da6eead217ca84807c1c4200.jpg')
+        }
        .card__img:hover {
         transform:scale(0.8);
     }
