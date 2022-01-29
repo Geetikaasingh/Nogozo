@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
- *, *::before, *::after {
+ *{
 	 box-sizing: border-box;
 	 margin: 0;
 	 padding: 0;
@@ -60,30 +60,8 @@ h1{
 .card__img:hover {
     transform:scale(0.8);
 }
- .card__price {
-	 font-size: 1.4rem;
-	 margin-top: 0.6rem;
-}
- .card__price::before {
-	 content: "$";
-	 font-size: 1rem;
-	 position: relative;
-	 top: -0.3rem;
-	 padding-right: 0.1rem;
-}
- .card__btn {
-	 border: none;
-	 border-top: 1px solid #e1e5ee;
-	 background-color: transparent;
-	 font-family: inherit;
-	 font-size: 1rem;
-	 font-weight: bold;
-	 color: inherit;
-	 width: 100%;
-	 padding-top: 1rem;
-	 margin-top: 1rem;
-	 cursor: pointer;
-}
+
+
 @keyframes rotation {
     from {
       transform: rotate(0deg);
