@@ -1,10 +1,6 @@
 import React, {useState, useEffect} from "react"
 import { HashLink as Link} from 'react-router-hash-link';
 import './Navbar.css';
-
-
-
-import {Button} from '../Button/Button'
 function Navbar(){
     const [click,setClick]=useState(false);
 
