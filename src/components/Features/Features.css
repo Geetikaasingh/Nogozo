@@ -95,7 +95,7 @@
             border-radius: 0.2rem;
            
             display: flex;
-            background:white;
+            background-image:rgb(100, 42, 42);
        }
 	
 	 .card__img {
