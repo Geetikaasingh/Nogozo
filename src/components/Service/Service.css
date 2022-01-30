@@ -4,10 +4,20 @@
 	 margin: 0;
 	 padding: 0;
 }
- body {
-	 font-family: "Noto Sans", sans-serif;
-	 color: #4f546c;
-}
+@keyframes slide{
+    0%{margin-left:-800px;}
+    20%{margin-left:-800px;}
+    35%{margin-left:0px;}
+  100%{margin-left:0px;}
+  }
+  @keyframes reveal{
+    0%{opacity: 0; width: 0px;}
+    20%{opacity: 1; width: 0px;}
+    30%{width: 655px;}
+    80%{opacity: 1;}
+    100%{opacity: 0; width: 655px;}
+  }
+
 .cards{
     box-sizing:border-box;
 }
@@ -22,6 +32,7 @@ h1{
     text-align:center;
     font-size:50px;
     color:rgb(36, 11, 100);
+
     
 }
  .card {
@@ -60,7 +71,6 @@ h1{
 .card__img:hover {
     transform:scale(0.8);
 }
-
 
 @keyframes rotation {
     from {
@@ -119,10 +129,14 @@ h1{
 	}
     h1{
         text-align:center;
+        animation: rotation 4s infinite;
+        
+    }
+    h1:hover{
+        transform: scale(1.8);
+        animation: rotation 4s infinite;
     }
     
   
     }
    
-
- 
